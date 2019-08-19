@@ -1,0 +1,1 @@
+export type GenericClass<T> = (target: T) => void;

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "./lib",
+    "declaration": true,
+    "module": "commonjs",
+    "lib": ["es2018"],
+    "types": ["mocha", "chai"],
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": ["./src/test.ts"]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@jcbinet/ts-inject",
+  "version": "0.1.0",
+  "description": "Basic dependency injection for TypeScript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tsc --build --clean && node_modules/.bin/mocha -r ts-node/register src/test.ts"
+  },
+  "keywords": [
+    "dependency-injection",
+    "di",
+    "typescript"
+  ],
+  "files": [
+    "/lib"
+  ],
+  "author": "Jean-Christophe Binet <me@jeanchristophebinet.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jcbinet/ts-inject",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcbinet/ts-inject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcbinet/ts-inject/issues"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
