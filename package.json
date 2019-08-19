@@ -1,6 +1,6 @@
 {
   "name": "@jcbinet/ts-inject",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Basic dependency injection for TypeScript",
   "main": "lib/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "typescript"
   ],
   "files": [
-    "/lib"
+    "lib"
   ],
   "author": "Jean-Christophe Binet <me@jeanchristophebinet.com>",
   "license": "MIT",
